@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexus Whitehat | IT Solutions & Software</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Custom Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#f97316',
+            dark: '#0f172a',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-dark text-gray-200 font-sans">
+
+<!-- NAVBAR -->
+<header class="fixed w-full bg-dark/90 backdrop-blur z-50">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="flex items-center gap-3">
+      <img src="Nexuswhitehat IT solutions logo.png" alt="Nexus Whitehat Logo" class="h-10 w-10 rounded-full">
+      <span class="text-xl font-bold tracking-wide">Nexus Whitehat</span>
+    </div>
+    <nav class="hidden md:flex gap-8 text-sm">
+      <a href="#services" class="hover:text-primary">Services</a>
+      <a href="#portfolio" class="hover:text-primary">Portfolio</a>
+      <a href="#about" class="hover:text-primary">About</a>
+      <a href="#contact" class="hover:text-primary">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="pt-32 pb-24 bg-gradient-to-br from-dark via-slate-900 to-black">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+    
+    <div>
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+        Premium IT Solutions<br>
+        <span class="text-primary">Built Smart & Affordable</span>
+      </h1>
+      <p class="mt-6 text-gray-400 max-w-xl">
+        Nexus Whitehat delivers modern software solutions including websites,
+        mobile applications, and custom systems — designed with elegance,
+        performance, and affordability.
+      </p>
+      <div class="mt-8 flex gap-4">
+        <a href="#contact" class="bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-orange-500 transition">
+          Get Started
+        </a>
+        <a href="#portfolio" class="border border-gray-600 px-6 py-3 rounded-lg hover:border-primary transition">
+          View Work
+        </a>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="Nexuswhitehat IT solutions logo.png" alt="Logo" class="w-72 drop-shadow-2xl">
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="py-24 bg-slate-950">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Our Services</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto mb-16">
+      High-quality software solutions tailored for businesses, creators, and organizations.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-10">
+      <!-- Web -->
+      <div class="bg-slate-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-primary/10 transition">
+        <h3 class="text-xl font-semibold mb-4">Website Development</h3>
+        <p class="text-gray-400">
+          Business websites, portfolio websites, informative sites, and news platforms —
+          fast, secure, and SEO-ready.
+        </p>
+      </div>
+
+      <!-- Mobile -->
+      <div class="bg-slate-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-primary/10 transition">
+        <h3 class="text-xl font-semibold mb-4">Mobile Applications</h3>
+        <p class="text-gray-400">
+          Android & iOS apps built for performance and scalability using modern technologies.
+        </p>
+      </div>
+
+      <!-- Custom -->
+      <div class="bg-slate-900 p-8 rounded-2xl hover:shadow-xl hover:shadow-primary/10 transition">
+        <h3 class="text-xl font-semibold mb-4">Custom Software</h3>
+        <p class="text-gray-400">
+          Tailor-made software solutions designed specifically for your business needs.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="py-24 bg-dark">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-16">Our Portfolio</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="bg-slate-900 p-6 rounded-xl">Business & Corporate Websites</div>
+      <div class="bg-slate-900 p-6 rounded-xl">News & Media Websites</div>
+      <div class="bg-slate-900 p-6 rounded-xl">Portfolio Websites</div>
+      <div class="bg-slate-900 p-6 rounded-xl">IPTV Applications</div>
+      <div class="bg-slate-900 p-6 rounded-xl">Radio Streaming Apps</div>
+      <div class="bg-slate-900 p-6 rounded-xl">Quran & Islamic Apps</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-24 bg-slate-950">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Why Nexus Whitehat?</h2>
+    <p class="text-gray-400 leading-relaxed">
+      We combine modern design, robust technology, and reasonable pricing.
+      Our mission is to provide premium-quality IT solutions that empower
+      startups, businesses, and individuals without unnecessary cost.
+    </p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contact" class="py-24 bg-gradient-to-r from-primary to-orange-600 text-black text-center">
+  <h2 class="text-3xl font-extrabold mb-4">Ready to Build Something Amazing?</h2>
+  <p class="mb-8">Let’s turn your idea into a powerful digital product.</p>
+  <a href="#" class="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-slate-900 transition">
+    Contact Us
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-6 bg-black text-center text-gray-500 text-sm">
+  © 2026 Nexus Whitehat — IT Solutions & Software
+</footer>
+
+</body>
+</html>
